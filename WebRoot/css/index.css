@@ -1,0 +1,78 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: black;
+}
+
+.container {
+	width: 960px;
+	margin: 0px auto;
+}
+
+#welcome-box {
+	background-image: url(../imgs/bg1.gif);
+	width: 900px;
+	height: 350px;
+	padding-left: 60px;
+	color: #222222;
+	position: relative;
+}
+
+#welcome-box #logo {
+	padding-bottom: 40px
+	
+}
+
+
+.mid_panel {
+	width:100%;
+	position: relative;
+	background-image: url(../imgs/bg2.gif);
+	height: 400px;
+}
+
+.self_pic {
+	display: inline-block;
+	position: absolute;
+	width: 260px;
+	top: 0px;
+	left: 0px;
+	height: 400px;
+	background-image: url("../files/myself01.jpg");
+	background-size: 260px 400px;
+}
+
+.self_info {
+	width: 300px;
+	height: 400px;
+	top: 0px;
+	left: 260px;
+	position: absolute;
+	color: white;
+}
+
+.self_weibo {
+	position: absolute;
+	left: 560px;
+	width: 400px;
+	height: 400px;
+}
+
+.bottom_bar {
+	width: 100%;
+	height: 45px; position : fixed;
+	bottom: 0px;
+	background:rgba(0,0,0,0.8);
+	position: fixed
+}
+.bottom_bar .bottom_1{
+	width: 960px;
+	margin: 0px auto;
+	
+}
+
